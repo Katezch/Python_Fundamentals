@@ -14,3 +14,10 @@
 	- Calculate how many seconds are in a year.
 
 '''
+print("hello world")
+
+print(2+3)
+
+sec=365*24*60
+print("There are %{f} seconds in a year", sec)
+
