@@ -8,3 +8,9 @@ Result: #ore python progra##ing please
 
 '''
 
+s = input(" please input words here: ")
+symbol = input("please enter a symbol: ")
+
+res = s.replace(s[0], symbol)
+print(res)
+

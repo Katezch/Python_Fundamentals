@@ -10,3 +10,16 @@ Demonstrate how to:
     Take note of what information is lost when some conversions take place.
 
 '''
+
+f = float(5)
+print(f)
+
+i = int(f)
+print(i)
+
+print(5.0//2)
+
+a = float(input("please enter first number here:"))
+b = float(input("Please enter second number here:  "))
+
+print(a*b)

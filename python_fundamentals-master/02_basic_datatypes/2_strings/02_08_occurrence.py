@@ -7,3 +7,8 @@ Letter input: o
 Result: 4
 
 '''
+
+s = input("enter a string:")
+l = input("enter a letter: ")
+
+print(s.index(l))

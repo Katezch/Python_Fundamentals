@@ -7,3 +7,22 @@ Example input:  1,2,3,4,5,6,7,8,9,10
 Example output: 2,4,6,8,10,9,7,5,3,1
 
 '''
+
+cnt = 0
+ls = []
+
+while cnt < 10:
+    num = int(input("enter a number: "))
+    ls.append(num)
+    cnt += 1
+
+new_ls = []
+for i in range(1, 10, 2):
+    new_ls.append(ls[i])
+
+for i in range(8, -1, -2):
+    new_ls.append(ls[i])
+
+print(ls)
+
+print(new_ls)
