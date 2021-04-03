@@ -7,3 +7,11 @@ The output of your calculation should therefore look like this:
 
 The sum is: 5050
 '''
+start_number = int(input("enter a starting number:"))
+end_number = int(input("enter a ending number:"))
+
+s = 0
+for num in range(start_number,end_number+1):
+    s += num
+
+print(s)

@@ -17,3 +17,8 @@ Another example: if input is 3, you will output
 Hint: Think of nested for loops
 
 '''
+
+use_number = int(input("Please enter a number :"))
+
+for i in range(1, use_number+1):
+    print(i*"*")
