@@ -25,3 +25,12 @@ office = [
     {"full_name": "Creed Bratton", "item": "mung beans"},
     {"full_name": "Darryl Philbin", "item": "forklift"},
 ]
+
+for i in office:
+    fullname = i["full_name"].split()
+    supply_item = i["item"]
+    lastname = fullname.pop()
+    firstname = ' '.join(fullname)
+    print(f"{lastname}, {firstname}, {supply_item : >50}")
+
+
